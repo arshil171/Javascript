@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size:40px;
+    font-family: Cursive;
+    color: #f70ad7ef;
+    padding-top: 10px;
+
+}
+#slider{
+    width: 100%;
+    display: flex;
+
+}
+.prev{
+    width: 10%;
+    height: 80vh;
+    background-color: #f70ad7ef;
+
+}
+.next{
+    width: 10%;
+    height: 80vh;
+    background-color: #f70ad7ef;
+}
+.img{
+    width: 80%;
+    height: 80vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
