@@ -19,13 +19,38 @@ h1{
 .prev{
     width: 10%;
     height: 80vh;
-    background-color: #f70ad7ef;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
 
+}
+.prev button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px black;
+    background-color: black;
+    font-size: 30px;
+    color: azure;
 }
 .next{
     width: 10%;
     height: 80vh;
-    background-color: #f70ad7ef;
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.next button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px black;
+    background-color: black;
+    font-size: 30px;
+    color: azure;
 }
 .img{
     width: 80%;
@@ -33,4 +58,6 @@ h1{
     background-color: blue;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 70px;
 }
