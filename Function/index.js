@@ -21,4 +21,4 @@ let area1 =(b, h)=>{
     return b*h;
 }
 
-console.log(area(10, 20));
+console.log(area1(10, 20));
